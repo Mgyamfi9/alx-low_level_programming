@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S "$CFILE" -o "$CFILE.s"
+FILENAME="${CFILE%.*}" && gcc -S "$CFILE" -o "$FILENAME.s"
