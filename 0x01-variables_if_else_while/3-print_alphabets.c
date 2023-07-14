@@ -12,6 +12,7 @@
 int main(void)
 {
 	int ch;
+	/*looping*/
 	for (ch = 97; ch <= 120; ch++)
 	{
 		putchar(ch);
@@ -19,7 +20,10 @@ int main(void)
 		{
 			putchar(ch);
 		}
+		/*after looping*/
+		return (0)
 	}
+	/*after code runs*/
 	putchar('\n');
 	return (0);
 }
