@@ -12,14 +12,14 @@
 int main(void)
 {
 	char ch = 'a';
-	
+	/*declaring ch*/
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	
+	/*adding new line*/
 	putchar('\n');
-	
+	/*returning 0*/
 	return (0);
 }
