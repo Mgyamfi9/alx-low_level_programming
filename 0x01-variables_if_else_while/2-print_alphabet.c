@@ -15,6 +15,7 @@ int main(void)
 	for (ch = 97; ch <= 122; ch++)
 	{
 		putchar(ch);
+		putchar(" ")
 	}
 	return (0);
 }
