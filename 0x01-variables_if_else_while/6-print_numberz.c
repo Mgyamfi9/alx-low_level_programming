@@ -15,9 +15,9 @@ int main(void)
         /*declaring variables*/
         for (i = 0; i <= 9; i++)
         {
-                putchar(i);
+                putchar('0'+ i);
         }
-        putchar("\n");
+        putchar('\n');
         /*returning values*/
         return (0);
 }
