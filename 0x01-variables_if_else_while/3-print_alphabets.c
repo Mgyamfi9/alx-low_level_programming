@@ -12,7 +12,7 @@
 int main(void)
 {
 	char ch = 'a';
-	int alpha = 65;
+	int alpha = 'A';
 	/*declaring ch*/
 	while (ch <= 'z')
 	{
@@ -20,13 +20,13 @@ int main(void)
 		ch++;
 	}
 	return (0);
-	while (alpha <= 90)
+	while (alpha <= 'Z')
 	{
 		putchar(alpha);
 		alpha++;
 	}
 	/*adding new line*/
-	putchar("\"$\n");
+	putchar("$\n");
 	/*returning 0*/
 	return (0);
 }
