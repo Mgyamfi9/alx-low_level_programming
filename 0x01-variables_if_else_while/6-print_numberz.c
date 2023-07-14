@@ -11,14 +11,14 @@
  */
 int main(void)
 {
-        int i;
-        /*declaring variables*/
-        for (i = 0; i <= 9; i++)
-        {
-                putchar('0'+ i);
-        }
-        putchar('\n');
-        /*returning values*/
-        return (0);
+	int i;
+	/*declaring variables*/
+	for (i = 0; i <= 9; i++)
+	{
+		putchar('0'+ i);
+	}
+	putchar('\n');
+	/*returning values*/
+	return (0);
 }
 
