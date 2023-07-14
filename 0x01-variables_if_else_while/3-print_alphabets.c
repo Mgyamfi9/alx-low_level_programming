@@ -26,7 +26,7 @@ int main(void)
 		alpha++;
 	}
 	/*adding new line*/
-	putchar('$\n');
+	putchar("\"$\n");
 	/*returning 0*/
 	return (0);
 }
