@@ -18,12 +18,11 @@ int main(void)
 		putchar(ch);
 		/*after looping*/
 	}
-	return (0);
 	for (ch = 65; ch <= 90; ch++)
 	{
 		putchar(ch);
 	}
-	return(0);
+	return (0);
 	/*after code runs*/
 	putchar('\n');
 	return (0);
