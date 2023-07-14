@@ -21,7 +21,7 @@ int main(void)
 			putchar(ch);
 		}
 		/*after looping*/
-		return (0)
+		return (0);
 	}
 	/*after code runs*/
 	putchar('\n');
