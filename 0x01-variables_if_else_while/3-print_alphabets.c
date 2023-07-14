@@ -12,7 +12,7 @@
 int main(void)
 {
 	char ch = 'a';
-	int alpha=65
+	int alpha = 65;
 	/*declaring ch*/
 	while (ch <= 'z')
 	{
