@@ -11,22 +11,15 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	char alpha = 'A';
-	/*declaring ch*/
-	while (ch <= 'z')
+	int ch;
+	for (ch = 97; ch <= 120; ch++)
 	{
 		putchar(ch);
-		ch++;
+		for (ch = 65; ch <= 90; ch++)
+		{
+			putchar(ch);
+		}
 	}
-	return (0);
-	while (alpha <= 'Z')
-	{
-		putchar(alpha);
-		alpha++;
-	}
-	/*adding new line*/
-	putchar("\"$\n");
-	/*returning 0*/
-	return (0);
+	putchar('\n')
+	return (0)
 }
