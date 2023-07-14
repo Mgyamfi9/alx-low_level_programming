@@ -11,11 +11,12 @@
  */
 int main(void)
 {
-        int i;
+	int i;
 	/*declaring variables*/
 	for (i = 0; i <= 9; i++)
 	{
-		printf("%d\n", i);
+		printf("%d", i);
+		printf("\n");
 	}
 	/*returning values*/
 	return (0);
