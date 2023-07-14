@@ -11,9 +11,9 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	char ch = 'z';
 	/*declaring ch*/
-	while (ch <= 'z')
+	while (ch <= 'a')
 	{
 		putchar(ch);
 		ch--;
