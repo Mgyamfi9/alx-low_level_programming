@@ -14,11 +14,15 @@ int main(void)
 	char ch = 'a';
 	int alpha=65
 	/*declaring ch*/
-	while (ch <= 'z' && alpha <= 90)
+	while (ch <= 'z')
 	{
 		putchar(ch);
-		putchar(alpha)
 		ch++;
+	}
+	return (0);
+	while (alpha <= 90)
+	{
+		putchar(alpha);
 		alpha++;
 	}
 	/*adding new line*/
