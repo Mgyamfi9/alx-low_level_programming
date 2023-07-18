@@ -11,5 +11,5 @@ int add(int x, int y)
 	int result;
 	/*declarations*/
 	result = x + y;
-	return result;
+	return (result);
 }
