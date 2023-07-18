@@ -9,9 +9,11 @@ int print_last_digit(int num)
 {
 	int last_digit;
 	/*declare int*/
-	num = -num;
 	/*start calculation*/
 	last_digit = num % 10;
-	_putchar(last_digit + '0');
+	if (last_digit < 0)
+	{
+		last_digit *= -1;
+	}
 	return (last_digit);
 }       
