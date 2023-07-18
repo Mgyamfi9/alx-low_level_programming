@@ -8,7 +8,7 @@ void print_times_table(int n)
 {
 	if (n < 0 || n > 15)
 	{
-		return (0);
+		 _putchar(0);
 	}
 	int i, j;
 	/*variable declarations*/
@@ -20,18 +20,19 @@ void print_times_table(int n)
 			result = i * j;
 			if (j != 0)
 			{
-				_putchar(",   ");
+				_putchar(',');
+				_putchar(' ')
 				if (result < 10)
 				{
-					_putchar(" ");
+					_putchar(' ');
 				}
 				if (result < 100)
 				{
-					_putchar(" ");
+					_putchar(' ');
 				}
             _putchar(result);
 			}
-			_putchar("\n");
+			_putchar('\n');
 		}
 	}
 }
