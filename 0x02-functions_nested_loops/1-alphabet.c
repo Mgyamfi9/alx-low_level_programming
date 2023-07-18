@@ -6,16 +6,16 @@
  * Return: Always 0.
  */
 /**
-*print_alphabet - prints alphabets a-z
+* print_alphabet - prints alphabets a-z
+*
 */
 void print_alphabet(void)
 {
 	int i;
-	
+	/*enters loop*/
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
 	}
 	_putchar('\n');
 }
-
