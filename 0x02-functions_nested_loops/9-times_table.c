@@ -5,6 +5,7 @@
 void times_table(void)
 {
 	int row, column, product;
+	/*declarations*/
 	for (row = 0; row <= 9; row++)
 	{
 		for (column = 0; column <= 9; column++)
@@ -27,5 +28,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
