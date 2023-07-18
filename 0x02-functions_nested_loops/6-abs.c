@@ -10,6 +10,6 @@ int _abs(int n)
 {
 	int absolute = abs(n);
 	/*print absolute*/
-	_putchar('0' + absolute);
+	_putchar(absolute);
 	return (0);
 }
