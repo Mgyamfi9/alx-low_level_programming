@@ -8,7 +8,7 @@
  */
 int _abs(int n)
 {
-	abs(n);
+	int absolute = abs(n);
 	/*print absolute*/
-	return (0);
+	return absolute;
 }
