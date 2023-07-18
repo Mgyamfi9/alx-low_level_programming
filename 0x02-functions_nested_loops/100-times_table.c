@@ -10,8 +10,7 @@ void print_times_table(int n)
 	{
 		 _putchar(0);
 	}
-	int i;
-	int j;
+	int i, j;
 	/*variable declarations*/
 	for (i = 0; i <= n; i++)
 	{
