@@ -10,6 +10,7 @@ int main(void)
 	int count;
 	/*declarations*/
 	unsigned long fib1 = 0, fib2 = 1, sum;
+	/*declarations*/
 	for (count = 0; count < 50; count++)
 	{
 		sum = fib1 + fib2;
