@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
  * fizz_buzz - prints fizzbuzz
- * main - entry point of code
+ * 
  * Return: 0 success
  *
  */
 int fizz_buzz(void)
 {
 	int i;
+	/*variable declarations*/
 	for (i = 1; i<= 100; i++)
 	{
 		if ( i % 3 == 0)
@@ -29,6 +30,12 @@ int fizz_buzz(void)
 	}
 	return (0);
 }
+/**
+ * main - entry point of code
+ *
+ * Return: 0 is success
+ *
+ */
 int main(void)
 {
 	fizz_buzz();
