@@ -1,21 +1,27 @@
 #include <stdio.h>
 /**
+ * main - prints numbers from 1 to 100
  * fizz_buzz - prints fizzbuzz
  * 
  * Return: 0 success
  *
  */
+int main(void)
+{
+	fizz_buzz();
+	return (0);
+}
 int fizz_buzz(void)
 {
 	int i;
 	/*variable declarations*/
 	for (i = 1; i<= 100; i++)
 	{
-		if ( i % 3 == 0)
+		if ( i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz ");
 		}
-		else if(i % 5 == 0)
+		else if(i % 5 == 0 && i % 3 != 0)
 		{
 			printf("Buzz ");
 		}
@@ -23,21 +29,14 @@ int fizz_buzz(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else
+		else if (i == 1)
 		{
 			printf("%d ", i);
 		}
+		else
+		{
+			printf("%d",i);
+		}
 	}
-	return (0);
-}
-/**
- * main - entry point of code
- *
- * Return: 0 is success
- *
- */
-int main(void)
-{
-	fizz_buzz();
 	return (0);
 }
