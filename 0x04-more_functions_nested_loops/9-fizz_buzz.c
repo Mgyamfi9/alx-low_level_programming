@@ -6,11 +6,6 @@
  * Return: 0 success
  *
  */
-int main(void)
-{
-	fizz_buzz();
-	return (0);
-}
 int fizz_buzz(void)
 {
 	int i;
@@ -29,14 +24,15 @@ int fizz_buzz(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i == 1)
+		else
 		{
 			printf("%d ", i);
 		}
-		else
-		{
-			printf("%d",i);
-		}
 	}
+	return (0);
+}
+int main(void)
+{
+	fizz_buzz();
 	return (0);
 }
