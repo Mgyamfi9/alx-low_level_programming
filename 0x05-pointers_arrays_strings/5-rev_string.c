@@ -8,8 +8,7 @@
 void rev_string(char *s)
 {
 	 int i;
-        /*variable*/
-	_putchar(s);	 
+        /*variable*/	 
         for (i = strlen(s) - 1; i >= 0; i--)
         {
                 _putchar(s[i]);
