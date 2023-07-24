@@ -10,5 +10,5 @@ char *_strcpy(char *dest, char *src)
 {
 	if (src == NULL || dest == NULL)
 		return NULL;
-	return strcpy(dest, src);
+	return (strcpy(dest, src));
 }

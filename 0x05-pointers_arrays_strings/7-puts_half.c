@@ -2,13 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts_half - prints the second half of a string, followed by a new line
+ * puts_half - prints the second half of a string
  * @str: input string
  */
 void puts_half(char *str)
 {
 	int length = strlen(str);
 	int start_index;
+	int i;
 	/*variables*/
 	if (str == NULL)
 		return;
@@ -20,7 +21,7 @@ void puts_half(char *str)
 	{
 		start_index = (length - 1) / 2;
 	}
-	for (int i = start_index; i < length; i++) {
+	for (i = start_index; i < length; i++) {
 		_putchar(str[i]);
 	}
 	_putchar('\n');
