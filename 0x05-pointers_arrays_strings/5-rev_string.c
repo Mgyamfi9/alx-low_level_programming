@@ -7,16 +7,13 @@
  */
 void rev_string(char *s)
 {
-	if (s == NULL)
-		return;
-	else
-	{
-		int length = strlen(s);
-		int i;
-		/*variable declarations*/
-		for (i = length -1; i >= 0; i--)
-		{
-			_putchar(s[i]);
-		}
-	}
+	 int i;
+        /*variable*/
+        if (s == NULL)
+                return;
+        for (i = strlen(s) - 1; i >= 0; i--)
+        {
+                _putchar(s[i]);
+        }
+        _putchar('\n');
 }
