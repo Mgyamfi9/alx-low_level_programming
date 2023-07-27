@@ -6,6 +6,7 @@
  * @dest: destination string
  * @src: source string
  * @n: bytes
+ * Return: dest as string
  */
 char *_strncat(char *dest, char *src, int n)
 {
