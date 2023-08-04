@@ -7,13 +7,13 @@
 */
 int minimum_coins(int cents)
 {
-	int coins, num_coins, i;
+	int num_coins, i;
 	/*variables*/
 	if (cents < 0)
 	{
 		return (0);
 	}
-	coins[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
 	num_coins = 0;
 	for (i = 0; i < sizeof(coins) / sizeof(coins[0]); i++)
 	{
