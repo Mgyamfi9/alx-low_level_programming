@@ -1,14 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
+
 /**
- * main - entry point of program
- * @argc: size of arg
- * @argv: pointer array
- * Return: 0 always success
+ * main - prints all arguments it receives
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
-        while(argc--)
-                printf("%s\n", *argv++);
-        return (0);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
+	return (0);
 }
