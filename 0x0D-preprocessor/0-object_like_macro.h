@@ -1,2 +1,4 @@
+#ifndef SIZE_H
+#define SIZE_H
 #define SIZE 1024
-#include "0-object_like_macro.h"
+#endif
