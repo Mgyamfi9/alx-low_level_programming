@@ -1,6 +1,10 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * print_dog - prints dog props
+ * @d:dog ponter
+ */
 void print_dog(struct dog *d)
 {
 	if(d == NULL)
