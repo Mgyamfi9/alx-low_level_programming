@@ -4,7 +4,7 @@
  * init_dog - function to initialize
  * @d: variable to initialize
  * @name: name variable
- * @ge: age variable
+ * @age: age variable
  * @owner: owner variable
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
