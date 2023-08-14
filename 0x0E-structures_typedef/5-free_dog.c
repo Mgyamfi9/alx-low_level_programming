@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 #include <stdio.h>
-"include "main.h"
+include "main.h"
 /**
  * free_dog - frees dog struct
  * @d: struct to free
