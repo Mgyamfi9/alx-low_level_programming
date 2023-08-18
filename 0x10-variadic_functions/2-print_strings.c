@@ -1,7 +1,8 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
-/**print_strings - prints strings
+/**
+ * print_strings - prints strings
  * @separator: separates strings
  * @n: number of arguments
  */
