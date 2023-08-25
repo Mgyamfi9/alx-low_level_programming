@@ -1,7 +1,7 @@
 section .text
 	global main
 section .data
-	message: db "Hello Holberton", 0
+	message: db "Hello, Holberton", 0
 	format: db "%s", 10, 0
 extern printf
 main:
