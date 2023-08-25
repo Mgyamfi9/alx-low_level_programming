@@ -9,7 +9,7 @@ void free_list(list_t *head)
 	/*variable declaration*/
 	while ((c_node = head) != NULL)
 	{
-		c_node = head->next;
+		head = head->next;
 		free(c_node->str);
 		free(c_node);
 	}
