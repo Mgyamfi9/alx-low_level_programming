@@ -7,11 +7,10 @@ void free_list(list_t *head)
 {
 	list_t *hold;
 	/*variable declaration*/
-	while (head)
+	while ((hold ==head) != NULL)
 	{
 		hold = head->next;
-		free(head->str);
-		free(head);
-		head = hold;
+		free(hold->str);
+		free(hold);
 	}
 }
