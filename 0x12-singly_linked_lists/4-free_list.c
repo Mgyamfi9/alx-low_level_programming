@@ -5,12 +5,12 @@
  */
 void free_list(list_t *head)
 {
-	list_t *hold;
+	list_t *c_node;
 	/*variable declaration*/
-	while ((hold ==head) != NULL)
+	while ((c_node = head) != NULL)
 	{
-		hold = head->next;
-		free(hold->str);
-		free(hold);
+		c_node = head->next;
+		free(c_node->str);
+		free(c_node);
 	}
 }
