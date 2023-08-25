@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * add_node - adds a new node at end
- * head: head of list
- * str: stores new list
+ * @head: head of list
+ * @str: stores new list
  * Return: address of new element
  */
 list_t *add_node(list_t **head, const char *str)

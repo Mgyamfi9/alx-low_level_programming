@@ -1,16 +1,16 @@
 #include "lists.h"
 /**
  * add_node_end - adds new node at the end
- * @head: head node pointer
- * @str: string for new list
- * @Return: address of new node
+ * @head: double pointer to list+t
+ * @str: string to add to new node
+ * Return: address of new node
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *node_new;
 	list_t *c_node;
 	unsigned int i;
-	/*variables*/
+	/*variable declaration*/
 	i = 0;
 	c_node = *head;
 	while (str[i])
