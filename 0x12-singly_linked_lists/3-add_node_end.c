@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
- * add_node_end - adds node at the end
- * @head: head node
- * @str: str for new list
- * @Return: 0 always success
+ * add_node_end - adds new node at the end
+ * @head: head node pointer
+ * @str: string for new list
+ * @Return: address of new node
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -29,5 +29,5 @@ list_t *add_node_end(list_t **head, const char *str)
 	while (c_node->next)
 		c_node = c_node->next;
 	c_node->next = node_new;
-	return(node_new);
+	return (node_new);
 }
