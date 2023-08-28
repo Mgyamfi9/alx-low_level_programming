@@ -1,9 +1,9 @@
 #include "lists.h"
-/*
- * add_nodeint_end - add new node at the end
- * @head: head node pointer
+/**
+ * add_nodeint_end - adds a new node at the end of list
+ * @head: pointer to the address of head node
  * @n: value of new node
- * Return: address of new element
+ * Return: address of the new element
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
