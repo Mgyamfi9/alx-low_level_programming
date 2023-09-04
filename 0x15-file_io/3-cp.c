@@ -33,8 +33,8 @@ int main(int argc, char *argv[])
 	}
 	if (i < 0)
 	{
-		 dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]);
-		 exit(98);
+		dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]);
+		exit(98);
 	}
 	j = close(fp_r);
 	k = close(fp_w);
