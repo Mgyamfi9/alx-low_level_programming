@@ -2,7 +2,7 @@
 /**
  * read_textfile - reads a textfile and prints to POSIX
  * @filename: name of file
- * @@letters: letters to read and print
+ * @letters: letters to read and print
  * Return: number of letters
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -33,5 +33,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	free(k);
-	return(j);
+	return (j);
 }
